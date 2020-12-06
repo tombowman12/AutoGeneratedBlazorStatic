@@ -1,7 +1,7 @@
-﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
+﻿@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap');
 
 html, body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: Comfortaa
 }
 
 a, .btn-link {
@@ -14,6 +14,10 @@ a, .btn-link {
     border-color: #1861ac;
 }
 
+.blue-text {
+    color:royalblue
+}
+
 app {
     position: relative;
     display: flex;
@@ -24,6 +28,59 @@ app {
     height: 3.5rem;
     display: flex;
     align-items: center;
+}
+
+.take-unno {
+    padding-left:4vw;
+}
+
+.navbar-blue {
+    background-color: royalblue;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    border-top-right-radius: 2em;
+}
+
+.grey-line{
+    border-bottom-width: 2px;
+    border-bottom-color: grey;
+    border-bottom-style: solid;
+}
+
+.vertical-space{
+    padding-bottom:5vh;
+}
+
+.center-text {
+    text-align:center;
+}
+
+.center-div-first-page {
+    margin:auto;
+    width:69vw;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.index-bikes {
+    width: 30vw;
+    height: auto;
+    float: left;
+    border-radius:2em;
+    border-width:2px;
+    border-color:grey;
+    border-style:solid;
+}
+
+.first-page-or{
+    float:left;
+    padding-left:2vw;
+    padding-right:2vw;
+    padding-top:13vh;
 }
 
 .main {
@@ -47,15 +104,14 @@ app {
 }
 
 .sidebar {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    background-color: grey;
+    border-bottom-right-radius: 2em;
+    border-top-right-radius: 2em;
 }
-
-    .sidebar .top-row {
-        background-color: rgba(0,0,0,0.4);
-    }
 
     .sidebar .navbar-brand {
         font-size: 1.1rem;
+        color: white;
     }
 
     .sidebar .oi {
