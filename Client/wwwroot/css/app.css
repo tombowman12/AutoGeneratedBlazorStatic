@@ -35,7 +35,7 @@ app {
 }
 
 .navbar-blue {
-    background-color: royalblue;
+    background-image: linear-gradient(darkblue to darkgrey);
     padding-top: 2vh;
     padding-bottom: 2vh;
     border-top-right-radius: 2em;
@@ -66,23 +66,6 @@ app {
     margin-right: auto;
 }
 
-.index-bikes {
-    width: 30vw;
-    height: auto;
-    float: left;
-    border-radius:2em;
-    border-width:2px;
-    border-color:grey;
-    border-style:solid;
-}
-
-.first-page-or{
-    float:left;
-    padding-left:2vw;
-    padding-right:2vw;
-    padding-top:13vh;
-}
-
 .main {
     flex: 1;
 }
@@ -104,7 +87,7 @@ app {
 }
 
 .sidebar {
-    background-color: grey;
+    background-image: linear-gradient(darkblue to darkgrey);
     border-bottom-right-radius: 2em;
     border-top-right-radius: 2em;
 }
