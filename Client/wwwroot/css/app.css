@@ -30,12 +30,8 @@ app {
     align-items: center;
 }
 
-.take-unno {
-    padding-left:4vw;
-}
-
 .navbar-blue {
-    background-image: linear-gradient(darkblue to darkgrey);
+    background-image: linear-gradient(darkblue, darkgrey);
     padding-top: 2vh;
     padding-bottom: 2vh;
     border-top-right-radius: 2em;
@@ -87,7 +83,7 @@ app {
 }
 
 .sidebar {
-    background-image: linear-gradient(darkblue to darkgrey);
+    background-image: linear-gradient(darkblue, darkgrey);
     border-bottom-right-radius: 2em;
     border-top-right-radius: 2em;
 }
