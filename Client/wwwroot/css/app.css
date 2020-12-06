@@ -83,7 +83,7 @@ app {
 }
 
 .sidebar {
-    background-image: linear-gradient(darkblue, darkgrey);
+    background-image: linear-gradient(darkgrey, darkblue);
     border-bottom-right-radius: 2em;
     border-top-right-radius: 2em;
 }
