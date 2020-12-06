@@ -31,9 +31,9 @@ app {
 }
 
 .navbar-blue {
-    background-image: linear-gradient(darkblue, white);
+    background-color: black;
     padding-top: 2vh;
-    padding-bottom: 15vh;
+    padding-bottom: 2vh;
     border-top-right-radius: 2em;
 }
 
@@ -83,7 +83,7 @@ app {
 }
 
 .sidebar {
-    background-image: linear-gradient(white, darkblue);
+    background-image: linear-gradient(darkblue, white);
     border-bottom-right-radius: 2em;
     border-top-right-radius: 2em;
 }
