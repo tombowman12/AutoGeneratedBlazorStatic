@@ -33,7 +33,7 @@ app {
 .navbar-blue {
     background-image: linear-gradient(darkblue, darkgrey);
     padding-top: 2vh;
-    padding-bottom: 2vh;
+    padding-bottom: 15vh;
     border-top-right-radius: 2em;
 }
 
